@@ -2,7 +2,7 @@
 This project is developed using the React framework and styled with Tailwind CSS + DaisyUI. It serves as an assignment to create a CRUD (Create, Read, Update, Delete) webpage, allowing administrators to manage user data and interact with an API using Axios.
 
 ## Features
-- Create, Read, Update, and Delete user data. (Update data will come in the future)
+- Create, Read, Update, and Delete user data.
 - Utilizes Axios to connect to an external API.
 - Easily extendable and customizable for future enhancements.
 
