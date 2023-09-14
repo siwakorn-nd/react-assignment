@@ -6,7 +6,7 @@ const AdminForm = ({ submitHandler }) => {
     const [name,setName] =useState();
     const [lastname,setLastname] = useState();
     const [position,setPosition] = useState();
-    
+
     return (
         <>
         <div className="flex justify-center">
@@ -35,9 +35,8 @@ const AdminForm = ({ submitHandler }) => {
             </form>
         </div>
         <div className="w-100 flex justify-center mb-10">
-            <button onClick={() => submitHandler(name,lastname,position)} className="btn btn-primary">Save</button>
+        <button onClick={() => submitHandler(name, lastname, position)} className="btn btn-primary">Save</button>
         </div>
-        
         </>
     )
 }

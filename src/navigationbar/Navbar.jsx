@@ -1,5 +1,3 @@
-// import './navbar.css'
-
 const Navbar = () => {
     return (
         <nav className="navbar bg-neutral text-neutral-content flex flex-row-reverse">
